@@ -19,8 +19,7 @@ class MainActivity2 : AppCompatActivity() {
     var editTextEmail: EditText? = null
     var editTextPhone: EditText? = null
     var editTextPlace: EditText? = null
-    var buttonNext: Button? = null
-    var buttonBack: Button? = null
+    var buttonDoc: Button? = null
     var buttonSave: Button? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -33,6 +32,7 @@ class MainActivity2 : AppCompatActivity() {
         editTextPhone = findViewById(R.id.mPhone)
         editTextPlace = findViewById(R.id.mPlace)
         buttonSave = findViewById(R.id.mBack)
+        buttonDoc = findViewById(R.id.mDoc)
 
 
         buttonSave!!.setOnClickListener{
@@ -85,6 +85,9 @@ class MainActivity2 : AppCompatActivity() {
 
             }
 
+        }
+        buttonDoc!!.setOnClickListener {
+            startActivity(Intent(this, DoctorInfo::class.java))
         }
 
 

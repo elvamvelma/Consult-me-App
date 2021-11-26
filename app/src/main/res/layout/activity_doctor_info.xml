@@ -1,9 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".DoctorInfo">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/DocText"
+        android:layout_width="match_parent"
+        android:layout_height="296dp"
+        android:gravity="center"
+        android:text="@string/please_download_consult_you_app_to_register_a_hospital_or_as_a_doctor"
+        android:textColor="#0A0B0B"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:textColor="#070707"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:id="@+id/TextThanks"
+        android:layout_width="match_parent"
+        android:layout_height="141dp"
+        android:text="@string/thank_you_for_using_consult_me_app" />
+</LinearLayout>

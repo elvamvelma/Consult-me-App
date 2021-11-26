@@ -7,13 +7,14 @@
         <entry key="app/src/main/res/layout/activity_booking.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_consult.xml" value="0.171875" />
         <entry key="app/src/main/res/layout/activity_consulting.xml" value="0.171875" />
-        <entry key="app/src/main/res/layout/activity_contact.xml" value="0.171875" />
+        <entry key="app/src/main/res/layout/activity_contact.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_dates.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_doctor_info.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_four.xml" value="0.171875" />
         <entry key="app/src/main/res/layout/activity_learn.xml" value="0.12" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main2.xml" value="0.171875" />
-        <entry key="app/src/main/res/layout/activity_main_page.xml" value="0.171875" />
+        <entry key="app/src/main/res/layout/activity_main_page.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_one.xml" value="0.171875" />
         <entry key="app/src/main/res/layout/activity_share.xml" value="0.171875" />
         <entry key="app/src/main/res/layout/activity_talk.xml" value="0.22" />

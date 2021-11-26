@@ -63,4 +63,9 @@
     <string name="contact">contact</string>
     <string name="name">name</string>
     <string name="recommend_our_app">Recommend Our App:</string>
+    <string name="doctor_app">Doctor App</string>
+    <string name="patient_info_required">Patient info required:</string>
+    <string name="register">Register</string>
+    <string name="please_download_consult_you_app_to_register_a_hospital_or_as_a_doctor">Please Download Consult You App To Register A Hospital or As A Doctor</string>
+    <string name="thank_you_for_using_consult_me_app">Thank you for Using Consult Me App</string>
 </resources>
