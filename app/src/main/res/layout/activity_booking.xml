@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Booking">
+
+    <TextView
+        android:gravity="center"
+        android:textSize="30sp"
+        android:id="@+id/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pick_department_to_book_appointment" />
+
+    <CheckBox android:id="@+id/checkbox_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/radiology"
+        tools:ignore="OnClick" />
+    <CheckBox android:id="@+id/checkbox_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cardiology"
+        tools:ignore="OnClick" />
+    <CheckBox android:id="@+id/checkbox_three"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/neurology"
+        tools:ignore="OnClick" />
+    <CheckBox android:id="@+id/checkbox_four"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gynecology"
+        tools:ignore="OnClick" />
+    <CheckBox android:id="@+id/checkbox_five"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/maternity"
+        tools:ignore="OnClick" />
+    <CheckBox android:id="@+id/checkbox_six"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/orthopedics"
+        tools:ignore="OnClick" />
+    <EditText
+        android:paddingLeft="20dp"
+        android:hint="Pick a date"
+        android:id="@+id/booking_date"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/book"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/book"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="78dp"
+            tools:ignore="MissingConstraints" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>

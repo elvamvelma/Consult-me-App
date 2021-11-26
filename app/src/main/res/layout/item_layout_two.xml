@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:layout_margin="16dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:textSize="30sp"
+        android:id="@+id/mTvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text1" />
+
+    <TextView
+        android:textSize="30sp"
+        android:id="@+id/mTvAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text2" />
+
+    <TextView
+        android:textSize="30sp"
+        android:id="@+id/mTvGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text3" />
+
+    <TextView
+        android:textSize="30sp"
+        android:id="@+id/mTvEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text4" />
+
+    <TextView
+        android:textSize="30sp"
+        android:id="@+id/mTvPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text5" />
+
+    <TextView
+        android:textSize="30sp"
+        android:id="@+id/mTvPlace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text6" />
+</LinearLayout>

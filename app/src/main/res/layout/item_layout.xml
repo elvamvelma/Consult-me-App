@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/mPic"
+        android:layout_width="match_parent"
+        android:layout_height="162dp" />
+
+
+    <TextView
+        android:id="@+id/mNames"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dr"
+        android:gravity="center"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/mHosp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hosp"
+        android:gravity="center"
+        android:textSize="30sp"/>
+
+    <Button
+        android:textColor="#0B0A0A"
+        android:backgroundTint="#10ECBE"
+        android:id="@+id/mCall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="consult" />
+
+
+
+</LinearLayout>
